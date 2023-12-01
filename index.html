@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="asset/styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cal">
+        <input type="text" name="display" class="display" />
+        <div class="main">
+          <div class="styling">
+            <input
+              type="button"
+              class="button"
+              value="c"
+              onclick="cal.display.value='c'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="/"
+              onclick="cal.display.value='/'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="x"
+              onclick="cal.display.value='x'"
+            />
+            <input
+              type="button"
+              id="button-5"
+              value="del"
+              onclick="cal.display.value='del'"
+            /><br />
+          </div>
 
-</body>
+          <div class="styling-1">
+            <input
+              type="button"
+              class="button"
+              value="7"
+              onclick="cal.display.value='7'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="8"
+              onclick="cal.display.value='8'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="9"
+              onclick="cal.display.value='9'"
+            />
+            <input
+              type="button"
+              id="button-4"
+              value="%"
+              onclick="cal.display.value='%'"
+            /><br />
+          </div>
+
+          <div class="styling-2">
+            <input
+              type="button"
+              class="button"
+              value="4"
+              onclick="cal.display.value='4'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="5"
+              onclick="cal.display.value='5'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="6"
+              onclick="cal.display.value='6'"
+            />
+            <input
+              type="button"
+              id="button-2"
+              value="-"
+              onclick="cal.display.value='-'"
+            /><br />
+          </div>
+
+          <div class="styling-3">
+            <input
+              type="button"
+              class="button"
+              value="1"
+              onclick="cal.display.value='1'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="2"
+              onclick="cal.display.value='2'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="3"
+              onclick="cal.display.value='3'"
+            />
+            <input
+              type="button"
+              id="button-3"
+              value="+"
+              onclick="cal.display.value='+'"
+            /><br />
+          </div>
+
+          <div class="styling-4">
+            <input
+              type="button"
+              class="button"
+              value="0"
+              onclick="cal.display.value='0'"
+            />
+            <input
+              type="button"
+              class="button"
+              value="."
+              onclick="cal.display.value='.'"
+            />
+            <input
+              type="button"
+              id="button-1"
+              value="="
+              onclick="cal.display.value='='"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
